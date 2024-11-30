@@ -2,7 +2,7 @@ function StartBtn() {
 
     //this component will toggle the state of timerActive from off to on
 
-    return;
+    return <div></div>;
 }
 
 export default StartBtn;

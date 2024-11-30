@@ -2,7 +2,7 @@
 function Timer() {
     return (
         <div>
-            <p>Time left: 25 minutes</p>
+            <p>25:00</p>
         </div>
     )
 }
