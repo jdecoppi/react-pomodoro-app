@@ -8,8 +8,10 @@ function ControlsContainer() {
 
     return <div>
         <StartBtn />
-        <PauseBtn />
+        <br />
+        <br />
         <RestartBtn />
+        <PauseBtn />
         <SkipBtn />
     </div>;
 }

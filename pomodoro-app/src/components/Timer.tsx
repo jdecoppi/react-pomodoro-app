@@ -1,8 +1,17 @@
+interface Props {
+    displayedString: string;
+    decrementInterval: number;
+}
 
-function Timer() {
+// const 
+
+
+function Timer(props: Props) {
+    
     return (
         <div>
-            <p>25:00</p>
+            {/*display time*/}
+            <p className="timerValue">{props.displayedString}</p>
         </div>
     )
 }
